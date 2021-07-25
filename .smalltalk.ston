@@ -1,14 +1,14 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'AIShinglesCodeSimilarity',
+      #baseline : 'ShinglesCodeSimilarity',
       #directory : 'src',
       #platforms : [ #pharo ]
     }
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'AI-ShinglesCodeSimilarity' ]
+      #packages : [ 'ShinglesCodeSimilarity' ]
     }
   }
 }
