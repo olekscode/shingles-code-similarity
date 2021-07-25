@@ -12,7 +12,7 @@ To install `shingles-code-similarity`, go to the Playground (Ctrl+OW) in your [P
 
 ```Smalltalk
 Metacello new
-  baseline: 'AIShinglesCodeSimilarity';
+  baseline: 'ShinglesCodeSimilarity';
   repository: 'github://olekscode/shingles-code-similarity/src';
   load.
 ```
@@ -23,7 +23,7 @@ If you want to add a dependency on `shingles-code-similarity` to your project, i
 
 ```Smalltalk
 spec
-  baseline: 'AIShinglesCodeSimilarity'
+  baseline: 'ShinglesCodeSimilarity'
   with: [ spec repository: 'github://olekscode/shingles-code-similarity/src' ].
 ```
 
