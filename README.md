@@ -13,7 +13,7 @@ To install `shingles-similarity`, go to the Playground (Ctrl+OW) in your [Pharo]
 ```Smalltalk
 Metacello new
   baseline: 'AIShinglesSimilarity';
-  repository: 'github://pharo-ai/shingles-similarity/src';
+  repository: 'github://olekscode/shingles-similarity/src';
   load.
 ```
 
@@ -24,7 +24,7 @@ If you want to add a dependency on `shingles-similarity` to your project, includ
 ```Smalltalk
 spec
   baseline: 'AIShinglesSimilarity'
-  with: [ spec repository: 'github://pharo-ai/shingles-similarity/src' ].
+  with: [ spec repository: 'github://olekscode/shingles-similarity/src' ].
 ```
 
 If you are new to baselines and Metacello, check out the [Baselines](https://github.com/pharo-open-documentation/pharo-wiki/blob/master/General/Baselines.md) tutorial on Pharo Wiki.
